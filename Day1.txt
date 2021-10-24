@@ -1,0 +1,197 @@
+Rajesh Kumar
+===============
+9:30 AM - 5:30 PM
+
+Lunch - 1:00 - 2:00 pm
+
+Tea - 15 mins
+	11 AM
+	3.30 PM
+----------------------
+Demo + Lab = AWS
+=====================
+OS - Windows + Linux
+---------------------------
+What is Bamboo?
+---------------------------
+- CI tool.
+- Dev in Java	
+	- JDK 8/11
+- From Atlassion
+- Release 
+	- Only Paid but trial
+- Version - 8.X
+
+
+What is CI?
+---------------------------
+Cont* Integration
+
+Auto Build + Auto Testing
+-------------------------  == CI
+       Imm Feedback
+
+ARCH    DEV     DEV         DEV/BR   DEV/BR  DEV/BR   DEV/BR   QA	     QA     mgr	
+------------------------------------------------------------------------------------------
+PLAN -> Code -> Analysis -> Build -> UT -> Package -> Archive -> Deploy2QA -> AT -> CC
+----------------------------------------------------------------------------------------
+JIRA	Git	SonarQube   MSBuild  nunit  exe       Nexus      Ansible    Selenium  Ncover
+TFS	TFS		    Maven    junit  war			 Terraform		jacoco
+AzureDO                     Gradle
+==========================================================================================
+				Multiple Team
+				Multiple Phase
+				Multiple tools
+-------------------------------------------------------------------------------------------
+				CI
+				conti Integrate All Team at ONE
+				conti Integrate ALl Phases at ONE
+				conti Integrate ALL Tools at ONE
+		===================================================================
+				Jenkins - Bamboo - Teamcity
+				=============================
+				Integration
+				Scheduling = Trigger
+				Notification
+				Pipeline
+				Authentication
+				Authorization
+				
+Jenkins 		Vs Bamboo
+--------------------------
+- Jenkins(P)
+- Ent Jenkins
+- jenkins X
+- Blue Ocean
+-----------------------------------------
+		JAVA
+	--------------------------
+	Community Support - Paid Support
+	1000+ Collection of Plugins Free - Limited Plugings & Paid
+	Many plugins are not reliable -  All plugins r reliable
+
+CI 	| C Delivery | Manual
+	| C Deployment | Automatically
+================================
+Allow failure | Deliver at any given point of time
+
+
+
+DevOps
+--------------------------
+A person would code for the product
+A Person would code for testing a product
+A Person would code for infra/ops of a product
+-------------------------------
+WATCH - TheDevOpsSchool
+
+============================================================
+IP - 15.206.116.196
+
+User Name - administrator
+Password - u6QTy7kS!WC2h**7iu!2HVpf9Be5tVPc
+
+Step 1 - Download and Install JDK 11 in windows
+
+Option#1 - OpenJdk
+- http://jdk.java.net/java-se-ri/11
+Option#2 - Oracle JDK
+- https://www.oracle.com/
+
+Step 2 - Extract at C:\jdk-11 and set JAVA_HOME=C:\jdk-11.
+
+Step 3 - Add JAVA_HOME/bin into Path env var
+
+Step 4 - Download Bamboo 8 Package and Extract at C:\atlassian-bamboo-8.0.3
+- https://www.atlassian.com/software/bamboo/download
+EXE - https://product-downloads.atlassian.com/software/bamboo/downloads/atlassian-bamboo-8.0.2-windows-x64.exe
+Zip - https://product-downloads.atlassian.com/software/bamboo/downloads/atlassian-bamboo-8.0.3.zip
+
+Step 5 - Start a Bamboo using startup script located at c:/bamboo/bin
+
+Offical Doc - 
+Windows - https://confluence.atlassian.com/bamboo0700/installing-bamboo-on-windows-1014681719.html
+
+
+Verify - http://localhost:8085/
+
+http://15.206.116.196:8085/
+admin
+admin123
+
+http://3.6.36.40:8085/
+admin
+admin123
+
+
+
+java -jar atlassian-bamboo-agent-installer-8.0.2.jar http://3.6.36.40:8085/agentServer/
+
+
+http://3.6.36.40:8085/agentServer/agentInstaller/atlassian-bamboo-agent-installer-8.0.2.jar
+
+
+AAABng0ODAoPeNp9kk2PmzAQQO/+FUi9tAdWBiJCI1kqC0RJBSSFbNVKuQzObMIGTGRDsvz7EgjdD
+3V784ytmTdv/ClthLbitWZONGrMLHNmTTXP32gmNQ1yxPYnSpVXghk2pVPqWJZBMiizqroLc45CY
+bDL6+uDIN4EyTpZpgHxKlEDr2MokUl4QnX4pni5hwKe2ztelWOFuCkzlKvH+z4MKw6Fu0dRK6b/7
+eJDDV6XQ8lq2SBZN5IfQGGXR3aF1A2qmxMy0jyfctm+ujR00xqBggjy4r9E3aP8jEOnf0ImWFY13
+igNSikphsYLUAcWeRdv7h4xnjTzxXFTrMPfdhmLYyIM9+xYhXtIkt2P6nts2k/3D9HCF1zSOVx+n
+R4W7WXLtoykTaa4zE+904851gWI15pu42/aE/bavVUUBYm3dEPSDd3pEyD4B3ZuJdIa5FXzIxQKR
+59Ln4VLPw1iPTSmtvPVcWzSRextZiX3IHIFPbS7qzIknsQ+fL+nm67xW5nEx5d5h9m0z9ela8PWv
+2xnWnCGoumrkZfjIOcPJIftODAsAhRcTc0nTi++pFPZq53yEn4rFT4cMQIUfNeFmDWsj+2qGxf7E
+edu3e6Ptpw=X02k0
+
+
+
+Thejas D		13.126.216.163		tTTlY(k.FrHI6e7lANMpB;pZ.ogR6m8Q
+Miran Muthanna K S	65.0.185.94		keTaYS-ehu9OJ!8lfeswXe3N8iJfTxhf
+B V Dakshina Murthy	65.2.38.254		DBb)a*lZpQVWWT-d5a&ApUOjzMCHRB3A
+ummer shariff		52.66.211.104		ZEQ4olI5nLCuaqbWl*BYfHR&KHTq957t
+Chaithra C		13.126.138.243		9;Ke5rK;hpnIO(RTvJkTdHINCwLpPyC8
+NAVEEN KUMAR M		52.66.199.202		TFjQ7upMUsCr5Plj-O;wpZ?.ZskYuJH9
+Nanjunda		65.0.129.231		rGzowYez@BxiW=p7MpOvfHWKDADa=c(B
+anilkumar.mn		3.108.42.100		zhaM8hOAjNK2onOZL.c*Y4Y-EKru;Q8u
+Suryani B M		13.234.231.193		!.D!.tB$2$laeaxY%@7b6KO)xD?zkl4s
+Pavan Prasad R		13.233.138.120		LvLW?yqUceil(jHfhI5Xn6w8S2@G*xZB
+shivasundar		3.109.47.10		4UcoZSv2xxJelVpAVPJMJuGJ2ZI!AomC
+13.233.93.9		3SKy@4H$4@mjjug&MpEYnqr2k*kv-OQ7
+65.1.2.133		f!K*;y3LF62TWWv(fVZ6g)WJxJk2ffpS
+
+
+
+
+
+
+
+com.atlassian.soy.renderer.SoyException: Unable to compile Soy templates at: com.atlassian.plugins.atlassian-nav-links-plugin:rotp-menu at com.atlassian.soy.impl.DefaultSoyManager.render(DefaultSoyManager.java:149) at com.atlassian.soy.impl.DefaultSoyTemplateRenderer.render(DefaultSoyTemplateRenderer.java:45) at com.atlassian.soy.impl.DefaultSoyTemplateRenderer.render(DefaultSoyTemplateRenderer.java:39) at com.atlassian.soy.impl.DefaultSoyTemplateRenderer.render(DefaultSoyTemplateRenderer.java:33) at jdk.internal.reflect.GeneratedMethodAccessor657.invoke(Unknown Source) at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) at java.base/java.lang.reflect.Method.invoke(Method.java:566) at com.atlassian.bamboo.plugin.osgi.InvocationHandlers$SameClassLoaderInvocationHandler.invokeServiceMethod(InvocationHandlers.java:87) at com.atlassian.bamboo.plugin.osgi.InvocationHandlers$DynamicServiceInvocationHandler.invoke(InvocationHandlers.java:45) at com.sun.proxy.$Proxy1436.render(Unknown Source) at com.atlassian.bamboo.ww2.BambooFreemarkerManagerSoyHelpers$SoyHelper.renderNoCache(BambooFreemarkerManagerSoyHelpers.java:98) at com.atlassian.bamboo.ww2.BambooFreemarkerManagerSoyHelpers$SoyHelper.render(BambooFreemarkerManagerSoyHelpers.java:88) at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) at java.base/java.lang.reflect.Method.invoke(Method.java:566) at freemarker.ext.beans.BeansWrapper.invokeMethod(BeansWrapper.java:1459) at freemarker.ext.beans.ReflectionCallableMemberDescriptor.invokeMethod(ReflectionCallableMemberDescriptor.java:56) at freemarker.ext.beans.MemberAndArguments.invokeMethod(MemberAndArguments.java:51) at freemarker.ext.beans.OverloadedMethodsModel.exec(OverloadedMethodsModel.java:63) at freemarker.core.MethodCall._eval(MethodCall.java:76) at freemarker.core.Expression.eval(Expression.java:81) at freemarker.core.Assignment.accept(Assignment.java:134) at freemarker.core.Environment.visit(Environment.java:326) at freemarker.core.Environment.visit(Environment.java:332) at freemarker.core.Environment.visit(Environment.java:332) at freemarker.core.Environment.include(Environment.java:2505) at freemarker.core.Include.accept(Include.java:171) at freemarker.core.Environment.visit(Environment.java:326) at freemarker.core.Environment.visit(Environment.java:368) at freemarker.core.Environment.invoke(Environment.java:714) at freemarker.core.UnifiedCall.accept(UnifiedCall.java:86) at freemarker.core.Environment.visit(Environment.java:326) at freemarker.core.Environment.visit(Environment.java:332) at freemarker.core.Environment.include(Environment.java:2505) at freemarker.core.Include.accept(Include.java:171) at freemarker.core.Environment.visit(Environment.java:326) at freemarker.core.Environment.visit(Environment.java:332) at freemarker.core.Environment.process(Environment.java:305) at freemarker.template.Template.process(Template.java:384) at com.atlassian.bamboo.ww2.FreemarkerRequestDispatcherPageFilter.applyDecorator(FreemarkerRequestDispatcherPageFilter.java:123) at org.apache.struts2.sitemesh.TemplatePageFilter.applyDecorator(TemplatePageFilter.java:116) at com.atlassian.bamboo.ww2.FreemarkerRequestDispatcherPageFilter.access$200(FreemarkerRequestDispatcherPageFilter.java:46) at com.atlassian.bamboo.ww2.FreemarkerRequestDispatcherPageFilter$BambooSitemeshDecorator.render(FreemarkerRequestDispatcherPageFilter.java:245) at com.opensymphony.sitemesh.webapp.decorator.BaseWebAppDecorator.render(BaseWebAppDecorator.java:33) at com.opensymphony.sitemesh.webapp.SiteMeshFilter.doFilter(SiteMeshFilter.java:92) at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) at com.atlassian.bamboo.filter.SessionCreationForAnonymousUserFilter.doFilter(SessionCreationForAnonymousUserFilter.java:40) at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) at com.atlassian.bamboo.filter.NewRelicTransactionNamingFilter.doFilter(NewRelicTransactionNamingFilter.java:30) at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) at com.atlassian.bamboo.ww2.StrutsPrepareFilter$1.doFilter(StrutsPrepareFilter.java:72) at org.apache.struts2.dispatcher.filter.StrutsPrepareFilter.doFilter(StrutsPrepareFilter.java:92) at com.atlassian.bamboo.ww2.StrutsPrepareFilter.handleRequest(StrutsPrepareFilter.java:46) at com.atlassian.bamboo.ww2.StrutsPrepareFilter.doFilter(StrutsPrepareFilter.java:38) at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) at com.atlassian.bamboo.filter.BambooProfilingFilter.doFilter(BambooProfilingFilter.java:72) at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) at com.atlassian.plugin.servlet.filter.IteratingFilterChain.doFilter(IteratingFilterChain.java:39) at com.atlassian.plugin.servlet.filter.DelegatingPluginFilter.lambda$doFilter$0(DelegatingPluginFilter.java:57) at com.atlassian.bamboo.filter.SessionExpiryFilter.doFilter(SessionExpiryFilter.java:61) at com.atlassian.plugin.servlet.filter.DelegatingPluginFilter.doFilter(DelegatingPluginFilter.java:62) at com.atlassian.plugin.servlet.filter.IteratingFilterChain.doFilter(IteratingFilterChain.java:37) at com.atlassian.plugin.servlet.filter.DelegatingPluginFilter.lambda$doFilter$0(DelegatingPluginFilter.java:57) at com.atlassian.troubleshooting.thready.filter.AbstractThreadNamingFilter.doFilter(AbstractThreadNamingFilter.java:46) at com.atlassian.plugin.servlet.filter.DelegatingPluginFilter.doFilter(DelegatingPluginFilter.java:62) at com.atlassian.plugin.servlet.filter.IteratingFilterChain.doFilter(IteratingFilterChain.java:37) at com.atlassian.plugin.servlet.filter.DelegatingPluginFilter.lambda$doFilter$0(DelegatingPluginFilter.java:57) at com.atlassian.prettyurls.filter.PrettyUrlsCombinedMatchDispatcherFilter.doFilter(PrettyUrlsCombinedMatchDispatcherFilter.java:56) at com.atlassian.plugin.servlet.filter.DelegatingPluginFilter.doFilter(DelegatingPluginFilter.java:62) at com.atlassian.plugin.servlet.filter.IteratingFilterChain.doFilter(IteratingFilterChain.java:37) at com.atlassian.plugin.servlet.filter.ServletFilterModuleContainerFilter.doFilter(ServletFilterModuleContainerFilter.java:55) at com.atlassian.plugin.servlet.filter.ServletFilterModuleContainerFilter.doFilter(ServletFilterModuleContainerFilter.java:43) at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) at com.atlassian.bamboo.filter.AccessLogFilter.doFilter(AccessLogFilter.java:89) at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) at org.acegisecurity.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:265) at org.acegisecurity.providers.anonymous.AnonymousProcessingFilter.doFilter(AnonymousProcessingFilter.java:125) at org.acegisecurity.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:275) at com.atlassian.bamboo.filter.SeraphLoginFilter$1.run(SeraphLoginFilter.java:71) at com.atlassian.bamboo.security.ImpersonationHelper.runWith(ImpersonationHelper.java:26) at com.atlassian.bamboo.security.ImpersonationHelper.runAs(ImpersonationHelper.java:54) at com.atlassian.bamboo.filter.SeraphLoginFilter.doFilter(SeraphLoginFilter.java:76) at org.acegisecurity.util.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:275) at org.acegisecurity.util.FilterChainProxy.doFilter(FilterChainProxy.java:149) at org.acegisecurity.util.FilterToBeanProxy.doFilter(FilterToBeanProxy.java:98) at com.atlassian.bamboo.filter.BambooAcegiProxyFilter.doFilter(BambooAcegiProxyFilter.java:21) at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) at com.atlassian.johnson.filters.AbstractJohnsonFilter.doFilter(AbstractJohnsonFilter.java:59) at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) at com.atlassian.seraph.filter.SecurityFilter.doFilter(SecurityFilter.java:242) at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) at com.atlassian.seraph.filter.BaseLoginFilter.doFilter(BaseLoginFilter.java:148) at com.atlassian.seraph.filter.BambooLoginFilter.doFilter(BambooLoginFilter.java:36) at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) at com.atlassian.plugin.servlet.filter.IteratingFilterChain.doFilter(IteratingFilterChain.java:39) at com.atlassian.plugin.servlet.filter.DelegatingPluginFilter.lambda$doFilter$0(DelegatingPluginFilter.java:57) at com.atlassian.oauth.serviceprovider.internal.servlet.OAuthFilter.doFilter(OAuthFilter.java:67) at com.atlassian.plugin.servlet.filter.DelegatingPluginFilter.doFilter(DelegatingPluginFilter.java:62) at com.atlassian.plugin.servlet.filter.IteratingFilterChain.doFilter(IteratingFilterChain.java:37) at com.atlassian.plugin.servlet.filter.DelegatingPluginFilter.lambda$doFilter$0(DelegatingPluginFilter.java:57) at com.atlassian.security.auth.trustedapps.filter.TrustedApplicationsFilter.doFilter(TrustedApplicationsFilter.java:94) at com.atlassian.plugin.servlet.filter.DelegatingPluginFilter.doFilter(DelegatingPluginFilter.java:62) at com.atlassian.plugin.servlet.filter.IteratingFilterChain.doFilter(IteratingFilterChain.java:37) at com.atlassian.plugin.servlet.filter.DelegatingPluginFilter.lambda$doFilter$0(DelegatingPluginFilter.java:57) at com.atlassian.prettyurls.filter.PrettyUrlsCombinedMatchDispatcherFilter.doFilter(PrettyUrlsCombinedMatchDispatcherFilter.java:56) at com.atlassian.plugin.servlet.filter.DelegatingPluginFilter.doFilter(DelegatingPluginFilter.java:62) at com.atlassian.plugin.servlet.filter.IteratingFilterChain.doFilter(IteratingFilterChain.java:37) at com.atlassian.plugin.servlet.filter.ServletFilterModuleContainerFilter.doFilter(ServletFilterModuleContainerFilter.java:55) at com.atlassian.plugin.servlet.filter.ServletFilterModuleContainerFilter.doFilter(ServletFilterModuleContainerFilter.java:43) at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) at org.springframework.orm.hibernate5.support.OpenSessionInViewFilter.doFilterInternal(OpenSessionInViewFilter.java:156) at com.atlassian.bamboo.persistence.BambooSessionInViewFilter.doFilterInternal(BambooSessionInViewFilter.java:24) at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) at com.github.ziplet.filter.compression.CompressingFilter.doFilter(CompressingFilter.java:263) at com.atlassian.bamboo.filter.BambooCompressingFilter.doFilter(BambooCompressingFilter.java:37) at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) at com.atlassian.bamboo.filter.RequestCacheThreadLocalFilter.doFilter(RequestCacheThreadLocalFilter.java:40) at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) at com.atlassian.bamboo.filter.ClickjackingAndMimeTypeSniffingPreventionFilter.doFilter(ClickjackingAndMimeTypeSniffingPreventionFilter.java:36) at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) at com.atlassian.bamboo.filter.CookieCacheControlFilter.doFilter(CookieCacheControlFilter.java:49) at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) at com.atlassian.core.filters.HeaderSanitisingFilter.doFilter(HeaderSanitisingFilter.java:37) at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) at com.atlassian.plugin.servlet.filter.IteratingFilterChain.doFilter(IteratingFilterChain.java:39) at com.atlassian.plugin.servlet.filter.DelegatingPluginFilter.lambda$doFilter$0(DelegatingPluginFilter.java:57) at com.atlassian.analytics.client.filter.DefaultAnalyticsFilter.doFilter(DefaultAnalyticsFilter.java:26) at com.atlassian.analytics.client.filter.AbstractHttpFilter.doFilter(AbstractHttpFilter.java:33) at com.atlassian.plugin.servlet.filter.DelegatingPluginFilter.doFilter(DelegatingPluginFilter.java:62) at com.atlassian.plugin.servlet.filter.IteratingFilterChain.doFilter(IteratingFilterChain.java:37) at com.atlassian.plugin.servlet.filter.DelegatingPluginFilter.lambda$doFilter$0(DelegatingPluginFilter.java:57) at com.atlassian.troubleshooting.thready.filter.AbstractThreadNamingFilter.doFilter(AbstractThreadNamingFilter.java:46) at com.atlassian.plugin.servlet.filter.DelegatingPluginFilter.doFilter(DelegatingPluginFilter.java:62) at com.atlassian.plugin.servlet.filter.IteratingFilterChain.doFilter(IteratingFilterChain.java:37) at com.atlassian.plugin.servlet.filter.DelegatingPluginFilter.lambda$doFilter$0(DelegatingPluginFilter.java:57) at com.atlassian.prettyurls.filter.PrettyUrlsCombinedMatchDispatcherFilter.doFilter(PrettyUrlsCombinedMatchDispatcherFilter.java:56) at com.atlassian.plugin.servlet.filter.DelegatingPluginFilter.doFilter(DelegatingPluginFilter.java:62) at com.atlassian.plugin.servlet.filter.IteratingFilterChain.doFilter(IteratingFilterChain.java:37) at com.atlassian.plugin.servlet.filter.ServletFilterModuleContainerFilter.doFilter(ServletFilterModuleContainerFilter.java:55) at com.atlassian.plugin.servlet.filter.ServletFilterModuleContainerFilter.doFilter(ServletFilterModuleContainerFilter.java:43) at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:196) at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544) at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81) at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) at org.apache.catalina.valves.StuckThreadDetectionValve.invoke(StuckThreadDetectionValve.java:206) at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:698) at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:364) at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:624) at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831) at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1650) at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) at java.base/java.lang.Thread.run(Thread.java:834) Caused by: java.lang.IllegalArgumentException: Must have non-zero number of input Soy files. at com.google.common.base.Preconditions.checkArgument(Preconditions.java:144) at com.google.template.soy.SoyFileSet.(SoyFileSet.java:621) at jdk.internal.reflect.GeneratedConstructorAccessor350.newInstance(Unknown Source) at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490) at com.google.inject.internal.DefaultConstructionProxyFactory$2.newInstance(DefaultConstructionProxyFactory.java:86) at com.google.inject.internal.ConstructorInjector.provision(ConstructorInjector.java:108) at com.google.inject.internal.ConstructorInjector.construct(ConstructorInjector.java:88) at com.google.inject.internal.ConstructorBindingImpl$Factory.get(ConstructorBindingImpl.java:279) at com.google.inject.internal.InjectorImpl$2$1.call(InjectorImpl.java:1000) at com.google.inject.internal.InjectorImpl.callInContext(InjectorImpl.java:1050) at com.google.inject.internal.InjectorImpl$2.get(InjectorImpl.java:996) at com.google.inject.assistedinject.FactoryProvider2.invoke(FactoryProvider2.java:665) at com.google.template.soy.$Proxy1453.create(Unknown Source) at com.google.template.soy.SoyFileSet$Builder.build(SoyFileSet.java:201) at com.atlassian.soy.impl.DefaultSoyManager.strainTofu(DefaultSoyManager.java:218) at com.atlassian.soy.impl.DefaultSoyManager.access$100(DefaultSoyManager.java:36) at com.atlassian.soy.impl.DefaultSoyManager$2.load(DefaultSoyManager.java:89) at com.atlassian.soy.impl.DefaultSoyManager$2.load(DefaultSoyManager.java:85) at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3529) at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2278) at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2155) at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2045) at com.google.common.cache.LocalCache.get(LocalCache.java:3962) at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:3985) at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:4946) at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:4952) at com.atlassian.soy.impl.DefaultSoyManager.render(DefaultSoyManager.java:132) ... 183 more
+
+
+
+WINDOWS Error
+================================================================
+java.lang.ExceptionInInitializerError
+	at com.install4j.runtime.installer.helper.InstallerUtil.disablePreferencesLogging(Unknown Source)
+	at com.install4j.runtime.installer.helper.InstallerUtil.<clinit>(Unknown Source)
+	at com.install4j.runtime.installer.Installer.main(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.exe4j.runtime.LauncherEngine.launch(Unknown Source)
+	at com.exe4j.runtime.WinLauncher.main(Unknown Source)
+	at com.install4j.runtime.launcher.WinLauncher.main(Unknown Source)
+Caused by: java.lang.StringIndexOutOfBoundsException: begin 0, end 3, length 2
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:3319)
+	at java.base/java.lang.String.substring(String.java:1874)
+	at com.install4j.runtime.installer.helper.versionspecific.VersionSpecificHelper.<clinit>(Unknown Source)
+	... 10 more
+java.lang.NoClassDefFoundError: Could not initialize class com.install4j.runtime.installer.helper.InstallerUtil
+	at com.install4j.runtime.installer.Installer.main(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.exe4j.runtime.LauncherEngine.launch(Unknown Source)
+	at com.exe4j.runtime.WinLauncher.main(Unknown Source)
+	at com.install4j.runtime.launcher.WinLauncher.main(Unknown Source)
+
