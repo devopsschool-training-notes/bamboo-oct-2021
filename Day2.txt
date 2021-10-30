@@ -129,5 +129,38 @@ sonar.password=admin123
 Locate if sonar-project.properties is in Working directory of agent
 
 
+============================================================
+
+QS - How to integrate Bamboo with Nexus?
+==========================================
+Sample project Should - DOTNET
+----------------------------------------
+
+Step 1 - Setup Nexus Server		DONE
+
+Step 2 - Create a repo for Download and Upload in nexus 
+http://13.233.237.155:8081/repository/devopsschool/
+
+Step 3 - Build a Project and Upload a Artifacts to Nexus [ Bamboo ]
+https://github.com/scmgalaxy/teamcity-batch-helloworld
+ 
+curl -v -u admin:admin123 --upload-file theaiops-27_10_2021.gz http://13.233.237.155:8081/repository/devopsschool/theaiops-27_10_2021.gz 
+
+
+nexus
+===========
+http://13.233.237.155:8081/
+admin
+admin123
+
+
+
+
+
+
+
+
+
+
 
 
