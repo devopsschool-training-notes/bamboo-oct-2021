@@ -1,0 +1,133 @@
+13.233.198.239
+==============================
+1st HALF
+----------------------
+DOT NET - ASP
+SonarQube
+
+2nd Half
+----------------------
+Nexus Work
+Node Project
+
+Integration
+Scheduling = Trigger
+Notification
+Pipeline
+
+===================
+http://13.233.198.239:8085/
+rajesh
+rajesh123
+
+
+DOTNET Example Project
+-------------------------
+
+
+https://github.com/devopsschool-demo-labs-projects/dotnet-samples
+https://github.com/devopsschool-demo-labs-projects/dotnet-test-nunit
+https://github.com/devopsschool-demo-labs-projects/teamcity-dotnet-service
+https://github.com/devopsschool-demo-labs-projects/azure-pipelines-dotnet-core
+
+https://github.com/devopsschool-demo-labs-projects/teamcity-aspnet-msbuild-identity-mongo
+
+https://github.com/devopsschool-demo-labs-projects/aspnet-samples
+https://github.com/devopsschool-demo-labs-projects/teamcity-aspnet-msbuild-identity-mongo
+https://github.com/devopsschool-demo-labs-projects/Sample-ASP.NET-project
+
+
+ProjectName - DevOpsSchool
+Plan - PlanDevOps
+Stage
+	Analysis 		- SonarQube
+		Job - Scan
+	Build			- Dotnet - msbuild - aspnet
+		job - dotnet
+		job - msbuild
+		job - aspnet
+	Test			- nunit
+		job - nunit
+	Deployment		- TBD
+
+
+================================================================================
+How SonarQube works?
+=====================================================
+----------SonarQube Server----------
+	Rules
+	Dashboard
+	DB
+
+http://13.233.237.155:9000/
+admin
+admin123
+
+JDK Install
+- http://jdk.java.net/java-se-ri/11
+JAVA_HOME
+Should not be installed using ROOT/Administrator
+- https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-9.1.0.47736.zip
+
+13.233.237.155
+administrator
+=5Bq5Imk-V6mPX@sR)N8lRUc(zD2H@Ze
+
+----------Bamboo Build Agent----------
+Scanner
+https://binaries.sonarsource.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-4.6.2.2472-windows.zip
+	
+Source Code
+https://github.com/devopsschool-demo-labs-projects/sonar-scanning-examples
+
+----------Bamboo Server----------
+Would call SCANNER in Build Agent
+	Job - Scan
+		Task
+			Built-in-Task using 3rd party addons
+			Command line
+			- RUN SCANNER ON THE SOURCE CODE
+
+
+=====================================
+30-Oct-2021 05:57:49	INFO: Project root configuration file: NONE
+30-Oct-2021 05:57:49	INFO: Analyzing on SonarQube server 9.1.0
+30-Oct-2021 05:57:49	INFO: Default locale: "en_US", source code encoding: "windows-1252" (analysis is platform dependent)
+30-Oct-2021 05:57:49	INFO: Load global settings
+30-Oct-2021 05:57:49	INFO: ------------------------------------------------------------------------
+30-Oct-2021 05:57:49	INFO: EXECUTION FAILURE
+30-Oct-2021 05:57:49	INFO: ------------------------------------------------------------------------
+30-Oct-2021 05:57:49	INFO: Total time: 2.422s
+30-Oct-2021 05:57:49	INFO: Final Memory: 4M/20M
+30-Oct-2021 05:57:49	INFO: ------------------------------------------------------------------------
+30-Oct-2021 05:57:49	ERROR: Error during SonarScanner execution
+30-Oct-2021 05:57:49	ERROR: Not authorized. Analyzing this project requires authentication. Please provide a user token in sonar.login or other credentials in sonar.login and sonar.password.
+30-Oct-2021 05:57:49	ERROR: 
+30-Oct-2021 05:57:49	ERROR: Re-run SonarScanner using the -X switch to enable full debug logging.
+===============================================
+Fix
+-------------
+C:\tools\scanner\conf\sonar-scanner.properties
+- Add SonarQube Address
+
+sonar.host.url=http://13.233.237.155:9000/
+sonar.login=admin
+sonar.password=admin123
+=================================
+30-Oct-2021 06:02:44	INFO: Process project properties
+30-Oct-2021 06:02:44	INFO: ------------------------------------------------------------------------
+30-Oct-2021 06:02:44	INFO: EXECUTION FAILURE
+30-Oct-2021 06:02:44	INFO: ------------------------------------------------------------------------
+30-Oct-2021 06:02:44	INFO: Total time: 9.580s
+30-Oct-2021 06:02:44	INFO: Final Memory: 5M/24M
+30-Oct-2021 06:02:44	INFO: ------------------------------------------------------------------------
+30-Oct-2021 06:02:44	ERROR: Error during SonarScanner execution
+30-Oct-2021 06:02:44	ERROR: You must define the following mandatory properties for 'Unknown': sonar.projectKey
+30-Oct-2021 06:02:44	ERROR: 
+30-Oct-2021 06:02:44	ERROR: Re-run SonarScanner using the -X switch to enable full debug logging.
+=================
+Locate if sonar-project.properties is in Working directory of agent
+
+
+
+
