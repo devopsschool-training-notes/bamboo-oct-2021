@@ -153,9 +153,53 @@ http://13.233.237.155:8081/
 admin
 admin123
 
+Scheduling = Trigger
+======================================================
+
+Remote trigger
+Repository triggers the build when changes are committed
+[[[ Command Line ]]]
+https://confluence.atlassian.com/bamkb/git-repository-remote-trigger-859500786.html
+
+Repository polling
+Bamboo polls source repository and builds when new changes are found
+
+Scheduled
+Run according to schedule
+
+Single daily build
+Run once a day
+
+Tag trigger
+Bamboo detects new tags in repository and builds for all these tags
 
 
 
+
+Notification
+=================================================
+Email
+---------------------------------
+Step 1 - Configure a email server --> Configure details of the mail server.
+http://52.66.45.203:8085/admin/viewMailServer.action
+
+Step 2 - Work with System Notification
+http://52.66.45.203:8085/admin/viewSystemNotifications.action
+
+Step 3 - Notification tab under Plan
+http://52.66.45.203:8085/chain/admin/config/defaultChainNotification.action?buildKey=DEV-NEX
+
+
+Chat
+---------------------------------
+Step 1 - Add IM Server
+http://52.66.45.203:8085/admin/instantmessagingserver/viewInstantMessagingServer.action
+
+Step 2 - Notification tab under Plan
+http://52.66.45.203:8085/chain/admin/config/defaultChainNotification.action?buildKey=DEV-NEX
+
+Step 3 - User Notification Setup
+http://52.66.45.203:8085/profile/userNotifications.action
 
 
 
