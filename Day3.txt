@@ -30,10 +30,167 @@ docker
 
 
 
+Deployment using Ansible
+=========================================
+What is Ansible?
+-----------------
+Coding for Deployment
+
+How Ansible Works!!!
+--------------------------------------------------------------
+Human --> Ansible Server --->  Ansible Remote(S)
+
+	  LINUX	-------WINRM--------	WINDOWS
+		-------SSH--------	Linux
+	        
+
+Ansible Server Contain's
+-------------------------------
+Ansible - Its tool need to be installed			DONE
+Ansible Playbook - Its a deployment code need to run	DONE
+inventory - its a file which contains IP address of Ansible Remote(S)	DONE
+------------------------------------------
+
+How to run? using Bamboo
+------------------------------
+https://github.com/devopsschool-demo-labs-projects/ansible-playbook-roles-windows
+ansible-playbook -i inventory playbook1.yaml
 
 
 
+PRE for ACS
+https://devopsschool.com/tutorial/ansible/ansible-windows-control-setup.html
+
+Pre for ARS
+https://devopsschool.com/tutorial/ansible/ansible-windows-remote-setup.html
+
+Deployment using Terraform
+======================================
+What is Terraform?
+========================
+Code for Infra
+
+How it works!!
+-----------------------------
+
+Human ->   Terraform --> Uses Code --> Providers ---> API call to Infra tool
+=============================================================================
+		tool      tf           tool      
 
 
+
+Step 1 - Install terraform in Bamboo agent		DONE
+Step 2 - write a code for infra
+Step 3 - terraform init [ Download Providers] [[ using bamboo ]]
+Step 4 - teraform apply | destroy [[ using bamboo ]]
+
+
+terraform {
+  required_providers {
+    github = {
+      source  = "integrations/github"
+      version = "~> 4.0"
+    }
+  }
+}
+
+# Configure the GitHub Provider
+provider "github" {
+  token = "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"
+  owner = "devopsschool-demo-temporary"
+}
+
+
+resource "github_repository" "github-repo-1" {
+  name        = "terraform-demo-4"
+  description = "My awesome codebase"
+
+  visibility = "public"
+}
+
+
+Authentication
+Authorization
+=======================================
+Authentication - How to login Bamboo?
+============================================
+Password - Deault - Internal System
+- http://52.66.45.203:8085/plugins/servlet/embedded-crowd/directories/list
+
+
+Authorization - After Login, what you are Authorized to do?
+=================================
+GLOBAL Seeting
+------------------------
+http://52.66.45.203:8085/admin/configureGlobalPermissions.action
+	USER
+	GROUP
+
+PROJECT
+------------------------
+
+
+Plan
+------------------------
+
+
+Reports
+===================
+
+Admin Options
+===================
+Bamboo Apps
+
+
+
+Bamboo Spec Example Codee
+https://github.com/Gpkmr/bamboo-specs
+------------------------------
+Jenkins		Bambo
+--------------------------
+Job 		Job
+tasks		task
+-=---
+xml		db
+=====================================
+Jenkins - Build
+Depl  - Bamboo
+
+Package in Jenkins ---Deploy using Bamboo
+
+
+
+===================================
+Jenkins			
+Package 		 Deploy	
+=======================
+
+JOSB at Jenkins --> Jobs at Bamboo
+=================================
+Backup of Jenkins
+--------
+ThinBakcup
+----
+zip
+=================================
+Jenkins
+--JOB - ARTIFACT - 
+========================
+API
+
+http://10.4.5.6/job/buold/package-6.zip
+
+
+BAMBOO
+====================
+wget http://10.4.5.6/job/buold/package-6.zip
+unzip package-6.zip
+DO WHATEVTER
+
+
+rajesh@devopsschool.com
+https://www.devopsschool.com/blog/10-best-youtube-channels-for-programmers-and-devops-engineers/
+
+https://www.devopsschool.com/blog/devopsschool-github-referenece/
 
 
