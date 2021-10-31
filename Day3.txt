@@ -1,0 +1,39 @@
+http://52.66.45.203:8085/allPlans.action
+rajesh
+rajesh123
+===================
+Deployment Projects using Bamboo Agent
+Deployment using Ansible
+Deployment using Terraform
+===================
+Authentication
+Authorization
+===================
+Bamboo Spec
+===================
+Backup and Restore
+===================
+Reports
+===================
+Admin Options
+===================
+Bamboo Apps
+=====================================
+Deployment Projects using Bamboo Agent
+Pre 
+- artifacts
+- Strategy in Place
+- Env
+	- Bamboo Agent
+====================================
+docker
+
+
+
+
+
+
+
+
+
+
